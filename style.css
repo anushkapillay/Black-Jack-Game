@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: rgb(48, 76, 19);
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-flow: column;
+    width: 100vw;
+    margin:  auto;
+    height: 100vh;
+
+}
+h1{
+    color: rgb(214, 182, 53);
+}
+h1,h3,h4{
+    margin: 5px;
+}
+
+button{
+    background-color:  rgb(214, 182, 53);
+    padding: 5px;
+    border-radius: 20px;
+    width: 160px;
+    color: rgb(48, 76, 19);
+    margin: 5px;
+    cursor: pointer;
+
+}
+
+button:hover{
+    background-color:  rgb(175, 150, 49); 
+}
