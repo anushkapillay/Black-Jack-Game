@@ -37,3 +37,6 @@ button{
 button:hover{
     background-color:  rgb(175, 150, 49); 
 }
+#disable-btn,#disable-replay-btn{
+    display: none;
+}
